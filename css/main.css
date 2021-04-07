@@ -48,9 +48,16 @@ a
 
 .main-text
 {
-    width: 40%;
+    width: 50%;
     color:#ffffff;
-    font: 700 20px/28px 'Play', san-serif;
+    font: 700 24px/28px 'Play', san-serif;
+    margin-right: 40px;
+}
+
+li
+{
+    margin-top: 15px;
+    font-size: 26px;
 }
 
 .main-image
