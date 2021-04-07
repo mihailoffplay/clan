@@ -61,6 +61,15 @@ a
     border-radius: 15px;
 }
 
+.main-title
+{
+    margin-top: 90px;
+    color: #ffffff;
+    text-align: center;
+    font: 900 40px/28px 'Play', san-serif;
+    text-shadow: #000;
+}
+
 #stars 
 {   
     width:100%;
