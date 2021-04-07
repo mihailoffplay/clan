@@ -1,2 +1,2 @@
-@import url('../css/_main.css');
-@import url('../css/_responsive.css');
+@import 'main.css';
+@import 'responsive.css';
