@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    padding: 30px;
+}
+
+.menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a
+{
+    margin-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font: 700 20px/28px 'Play', san-serif;
+}
+
+.button_sign
+{
+    width: 200px;
+    height: 50px;
+    background-color: #D88948;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    color: #000;
+    font: 700 18px/28px 'Play', san-serif;
+    cursor: pointer;
+}
+
+.main
+{
+    width: 90%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text
+{
+    width: 40%;
+    color:#ffffff;
+    font: 700 20px/28px 'Play', san-serif;
+}
+
+.main-image
+{
+    width: 600px;
+    opacity: .6;
+    float: right;
+    border-radius: 15px;
+}
+
+#stars 
+{   
+    width:100%;
+    background:rgb(39, 39, 39);
+    background-attachment: fixed;
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -999;
+    position: absolute;
+}
