@@ -6,20 +6,19 @@
 
 header
 {
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .menu
 {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
 }
 
 a
 {
-    margin-left: 10px;
     color: #ffffff;
     text-decoration: none;
     font: 700 20px/28px 'Play', san-serif;
